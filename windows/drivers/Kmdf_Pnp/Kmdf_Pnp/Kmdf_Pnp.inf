@@ -1,0 +1,68 @@
+;
+; Kmdf_Pnp.inf
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System ; TODO: specify appropriate Class
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+Provider    = %ManufacturerName%
+CatalogFile = Kmdf_Pnp.cat
+DriverVer   = ; TODO: set DriverVer in stampinf property pages
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+Kmdf_Pnp.sys = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName% = Standard,NT$ARCH$.10.0...16299 ; %13% support introduced in build 16299
+
+[Standard.NT$ARCH$.10.0...16299]
+%Kmdf_Pnp.DeviceDesc% = Kmdf_Pnp_Device, Root\Kmdf_Pnp ; TODO: edit hw-id
+
+[Kmdf_Pnp_Device.NT]
+CopyFiles = File_Copy
+AddReg = TestAddReg
+
+[File_Copy]
+Kmdf_Pnp.sys
+
+[TestAddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,数字,0x00010001,15
+HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,字符,0x00000000,"Wdf驱动"
+HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,布尔,0x00010001,1
+
+;-------------- Service installation
+[Kmdf_Pnp_Device.NT.Services]
+AddService = Kmdf_Pnp,%SPSVCINST_ASSOCSERVICE%, Kmdf_Pnp_Service_Inst
+
+; -------------- Kmdf_Pnp driver install sections
+[Kmdf_Pnp_Service_Inst]
+DisplayName    = %Kmdf_Pnp.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\Kmdf_Pnp.sys
+
+[Kmdf_Pnp_Device.NT.Wdf]
+KmdfService = Kmdf_Pnp, Kmdf_Pnp_wdfsect
+
+[Kmdf_Pnp_wdfsect]
+KmdfLibraryVersion = $KMDFVERSION$
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName = "<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+DiskName = "Kmdf_Pnp Installation Disk"
+Kmdf_Pnp.DeviceDesc = "Kmdf_Pnp Device"
+Kmdf_Pnp.SVCDESC = "Kmdf_Pnp Service"
