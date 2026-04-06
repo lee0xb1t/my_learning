@@ -4,8 +4,10 @@
 
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = System ; TODO: specify appropriate Class
-ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+;Class       = System ; TODO: specify appropriate Class
+;ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+Class		= MEDIA
+ClassGuid   = {4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider    = %ManufacturerName%
 CatalogFile = Kmdf_Pnp.cat
 DriverVer   = ; TODO: set DriverVer in stampinf property pages
@@ -28,7 +30,8 @@ Kmdf_Pnp.sys = 1,,
 %ManufacturerName% = Standard,NT$ARCH$.10.0...16299 ; %13% support introduced in build 16299
 
 [Standard.NT$ARCH$.10.0...16299]
-%Kmdf_Pnp.DeviceDesc% = Kmdf_Pnp_Device, Root\Kmdf_Pnp ; TODO: edit hw-id
+;%Kmdf_Pnp.DeviceDesc% = Kmdf_Pnp_Device, Root\Kmdf_Pnp ; TODO: edit hw-id
+%Kmdf_Pnp.DeviceDesc% = Kmdf_Pnp_Device, PCI\VEN_15AD&DEV_1977
 
 [Kmdf_Pnp_Device.NT]
 CopyFiles = File_Copy
@@ -38,9 +41,9 @@ AddReg = TestAddReg
 Kmdf_Pnp.sys
 
 [TestAddReg]
-HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,æ•°å­—,0x00010001,15
-HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,å­—ç¬¦,0x00000000,"Wdfé©±åŠ¨"
-HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,å¸ƒå°”,0x00010001,1
+HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,Êý×Ö,0x00010001,15
+HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,×Ö·û,0x00000000,"WdfÇý¶¯"
+HKLM,SYSTEM\CurrentControlSet\Services\Kmdf_Pnp\Parameters,²¼¶û,0x00010001,1
 
 ;-------------- Service installation
 [Kmdf_Pnp_Device.NT.Services]
