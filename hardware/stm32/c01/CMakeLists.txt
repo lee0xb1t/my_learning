@@ -48,10 +48,10 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # libs/ssd1306/ssd1306.c
     # libs/ssd1306/ssd1306_fonts.c
     # libs/ssd1306/ssd1306_tests.c
-    Core/Src/driver_w25qxx.c
-    Core/Src/driver_w25qxx_advance.c
-    Core/Src/driver_w25qxx_basic.c
-    Core/Src/driver_w25qxx_interface.c
+    # Core/Src/driver_w25qxx.c
+    # Core/Src/driver_w25qxx_advance.c
+    # Core/Src/driver_w25qxx_basic.c
+    # Core/Src/driver_w25qxx_interface.c
 )
 
 # Add include paths
