@@ -1,0 +1,5 @@
+﻿  正在生成代码
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  test_demo.vcxproj -> C:\learn\my_learning\vmp_reverse\test_demo\Release\test_demo.exe
