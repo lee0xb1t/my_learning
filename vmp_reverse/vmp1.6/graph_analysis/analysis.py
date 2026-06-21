@@ -94,6 +94,12 @@ for named_bbl in named_bbls:
     if named_bbl['target'] == 'BBL175':
         print(named_bbl)
 
+for i in range(9):
+    for named_bbl in named_bbls:
+        if named_bbl['source'] == 'BBL'+str(176+i):
+            print(named_bbl)
+            break
+
 tooltip_data = []
 for named_bbl in named_bbls:
     tooltip_data.append(
