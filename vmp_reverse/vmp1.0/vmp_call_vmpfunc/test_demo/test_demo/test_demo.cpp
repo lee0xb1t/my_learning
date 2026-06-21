@@ -34,8 +34,6 @@ __declspec(naked) void testVMP() {
 
 int main()
 {
-    //__asm int 3;
-
     testVMP();
 
     std::cout << "Hello World!\n";

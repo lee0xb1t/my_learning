@@ -1,5 +1,6 @@
 ﻿  正在生成代码
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  11 of 12 functions (91.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
-  test_demo.vcxproj -> C:\learn\my_learning\vmp_reverse\test_demo\Release\test_demo.exe
+  test_demo.vcxproj -> C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\Release\test_demo.exe

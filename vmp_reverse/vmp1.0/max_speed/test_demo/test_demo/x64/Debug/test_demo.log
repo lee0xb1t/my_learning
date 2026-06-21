@@ -1,0 +1,9 @@
+﻿  test_demo.cpp
+C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\test_demo\test_demo.cpp(7,12): error C2485: “__declspec(标识符)”不是可识别的扩展属性
+C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\test_demo\test_demo.cpp(8,5): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\test_demo\test_demo.cpp(9,9): error C2065: “mov”: 未声明的标识符
+C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\test_demo\test_demo.cpp(9,13): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\test_demo\test_demo.cpp(9,13): error C2065: “eax”: 未声明的标识符
+C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\test_demo\test_demo.cpp(10,9): error C2146: 语法错误: 缺少“;”(在标识符“ret”的前面)
+C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\test_demo\test_demo.cpp(10,9): error C2065: “ret”: 未声明的标识符
+C:\learn\my_learning\vmp_reverse\vmp1.0\max_speed\test_demo\test_demo\test_demo.cpp(11,5): error C2143: 语法错误: 缺少“;”(在“}”的前面)

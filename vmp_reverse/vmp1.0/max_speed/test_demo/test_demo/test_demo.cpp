@@ -6,11 +6,7 @@
 
 __declspec(naked) void testVMP() {
     __asm {
-        push 0
-        push 0
-        push 0
-        push 0
-        call MessageBoxA
+        mov eax, 1
         ret
     }
 }
