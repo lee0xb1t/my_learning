@@ -1,0 +1,14 @@
+[project]
+name = "sample2-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "d3blocks>=1.6.4",
+    "d3graph>=2.8.2",
+    "matplotlib>=3.11.0",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.9.0",
+    "triton-library>=1.0.0rc4",
+]

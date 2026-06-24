@@ -1,0 +1,1223 @@
+{
+  "916": {
+    "addr": "0xa18567",
+    "size": 4,
+    "opcodes": [
+      "8d",
+      "44",
+      "24",
+      "60"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x28",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05895",
+      "edi": "0x113f578",
+      "eflags": "0x203"
+    }
+  },
+  "917": {
+    "addr": "0xa1856b",
+    "size": 2,
+    "opcodes": [
+      "3b",
+      "f8"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x113f4fc",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05895",
+      "edi": "0x113f578",
+      "eflags": "0x203"
+    }
+  },
+  "918": {
+    "addr": "0xa1856d",
+    "size": 5,
+    "opcodes": [
+      "e9",
+      "20",
+      "12",
+      "fe",
+      "ff"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x113f4fc",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05895",
+      "edi": "0x113f578",
+      "eflags": "0x212"
+    }
+  },
+  "919": {
+    "addr": "0x9f9792",
+    "size": 6,
+    "opcodes": [
+      "0f",
+      "87",
+      "fe",
+      "63",
+      "00",
+      "00"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x113f4fc",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05895",
+      "edi": "0x113f578",
+      "eflags": "0x212"
+    }
+  },
+  "920": {
+    "addr": "0x9ffb96",
+    "size": 1,
+    "opcodes": [
+      "55"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x113f4fc",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05895",
+      "edi": "0x113f578",
+      "eflags": "0x212"
+    }
+  },
+  "921": {
+    "addr": "0x9ffb97",
+    "size": 1,
+    "opcodes": [
+      "c3"
+    ],
+    "mems": [
+      {
+        "addr": "0x113f498",
+        "val": "0xa23057",
+        "size": 4
+      }
+    ],
+    "regs": {
+      "eax": "0x113f4fc",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f498",
+      "ebp": "0xa23057",
+      "esi": "0xa05895",
+      "edi": "0x113f578",
+      "eflags": "0x212"
+    }
+  },
+  "922": {
+    "addr": "0xa23057",
+    "size": 6,
+    "opcodes": [
+      "81",
+      "ee",
+      "01",
+      "00",
+      "00",
+      "00"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x113f4fc",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05895",
+      "edi": "0x113f578",
+      "eflags": "0x212"
+    }
+  },
+  "923": {
+    "addr": "0xa2305d",
+    "size": 3,
+    "opcodes": [
+      "0f",
+      "b6",
+      "06"
+    ],
+    "mems": [
+      {
+        "addr": "0xa05894",
+        "val": "0x48",
+        "size": 1
+      }
+    ],
+    "regs": {
+      "eax": "0x113f4fc",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x202"
+    }
+  },
+  "924": {
+    "addr": "0xa23060",
+    "size": 4,
+    "opcodes": [
+      "66",
+      "0f",
+      "a3",
+      "e9"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x48",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x202"
+    }
+  },
+  "925": {
+    "addr": "0xa23064",
+    "size": 4,
+    "opcodes": [
+      "66",
+      "0f",
+      "b3",
+      "da"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x48",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x202"
+    }
+  },
+  "926": {
+    "addr": "0xa23068",
+    "size": 3,
+    "opcodes": [
+      "c1",
+      "ca",
+      "f8"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x48",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf69000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x202"
+    }
+  },
+  "927": {
+    "addr": "0xa2306b",
+    "size": 2,
+    "opcodes": [
+      "32",
+      "c3"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x48",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf6900000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x203"
+    }
+  },
+  "928": {
+    "addr": "0xa2306d",
+    "size": 2,
+    "opcodes": [
+      "2c",
+      "ed"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x3c",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf6900000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x206"
+    }
+  },
+  "929": {
+    "addr": "0xa2306f",
+    "size": 3,
+    "opcodes": [
+      "0f",
+      "b7",
+      "cb"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x4f",
+      "ecx": "0xfffc8f42",
+      "edx": "0xf6900000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x213"
+    }
+  },
+  "930": {
+    "addr": "0xa23072",
+    "size": 3,
+    "opcodes": [
+      "80",
+      "c6",
+      "8e"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x4f",
+      "ecx": "0xb174",
+      "edx": "0xf6900000",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x213"
+    }
+  },
+  "931": {
+    "addr": "0xa23075",
+    "size": 2,
+    "opcodes": [
+      "fe",
+      "cd"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x4f",
+      "ecx": "0xb174",
+      "edx": "0xf6908e00",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x286"
+    }
+  },
+  "932": {
+    "addr": "0xa23077",
+    "size": 2,
+    "opcodes": [
+      "34",
+      "d2"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x4f",
+      "ecx": "0xb074",
+      "edx": "0xf6908e00",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x282"
+    }
+  },
+  "933": {
+    "addr": "0xa23079",
+    "size": 3,
+    "opcodes": [
+      "c1",
+      "c2",
+      "29"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x9d",
+      "ecx": "0xb074",
+      "edx": "0xf6908e00",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x282"
+    }
+  },
+  "934": {
+    "addr": "0xa2307c",
+    "size": 5,
+    "opcodes": [
+      "66",
+      "81",
+      "fd",
+      "58",
+      "2e"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x9d",
+      "ecx": "0xb074",
+      "edx": "0x211c01ed",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x283"
+    }
+  },
+  "935": {
+    "addr": "0xa23081",
+    "size": 2,
+    "opcodes": [
+      "04",
+      "f4"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x9d",
+      "ecx": "0xb074",
+      "edx": "0x211c01ed",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x216"
+    }
+  },
+  "936": {
+    "addr": "0xa23083",
+    "size": 2,
+    "opcodes": [
+      "d0",
+      "c8"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x91",
+      "ecx": "0xb074",
+      "edx": "0x211c01ed",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x293"
+    }
+  },
+  "937": {
+    "addr": "0xa23085",
+    "size": 2,
+    "opcodes": [
+      "2c",
+      "d1"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0xc8",
+      "ecx": "0xb074",
+      "edx": "0x211c01ed",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x293"
+    }
+  },
+  "938": {
+    "addr": "0xa23087",
+    "size": 2,
+    "opcodes": [
+      "d0",
+      "c0"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0xf7",
+      "ecx": "0xb074",
+      "edx": "0x211c01ed",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x283"
+    }
+  },
+  "939": {
+    "addr": "0xa23089",
+    "size": 4,
+    "opcodes": [
+      "66",
+      "0f",
+      "b3",
+      "c1"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0xef",
+      "ecx": "0xb074",
+      "edx": "0x211c01ed",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x283"
+    }
+  },
+  "940": {
+    "addr": "0xa2308d",
+    "size": 2,
+    "opcodes": [
+      "f6",
+      "d0"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0xef",
+      "ecx": "0x3074",
+      "edx": "0x211c01ed",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x283"
+    }
+  },
+  "941": {
+    "addr": "0xa2308f",
+    "size": 3,
+    "opcodes": [
+      "c1",
+      "ca",
+      "b6"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x3074",
+      "edx": "0x211c01ed",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x283"
+    }
+  },
+  "942": {
+    "addr": "0xa23092",
+    "size": 2,
+    "opcodes": [
+      "13",
+      "cd"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x3074",
+      "edx": "0x7007b484",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x282"
+    }
+  },
+  "943": {
+    "addr": "0xa23094",
+    "size": 2,
+    "opcodes": [
+      "d2",
+      "e9"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa260cb",
+      "edx": "0x7007b484",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x202"
+    }
+  },
+  "944": {
+    "addr": "0xa23096",
+    "size": 2,
+    "opcodes": [
+      "32",
+      "d8"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x7007b484",
+      "ebx": "0x4fb174",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0xa46"
+    }
+  },
+  "945": {
+    "addr": "0xa23098",
+    "size": 3,
+    "opcodes": [
+      "8b",
+      "14",
+      "04"
+    ],
+    "mems": [
+      {
+        "addr": "0x113f4ac",
+        "val": "0x113f654",
+        "size": 4
+      }
+    ],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x7007b484",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x202"
+    }
+  },
+  "946": {
+    "addr": "0xa2309b",
+    "size": 6,
+    "opcodes": [
+      "8d",
+      "bf",
+      "fc",
+      "ff",
+      "ff",
+      "ff"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f578",
+      "eflags": "0x202"
+    }
+  },
+  "947": {
+    "addr": "0xa230a1",
+    "size": 3,
+    "opcodes": [
+      "0f",
+      "ab",
+      "e9"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f574",
+      "eflags": "0x202"
+    }
+  },
+  "948": {
+    "addr": "0xa230a4",
+    "size": 2,
+    "opcodes": [
+      "89",
+      "17"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f574",
+      "eflags": "0x203"
+    }
+  },
+  "949": {
+    "addr": "0xa230a6",
+    "size": 2,
+    "opcodes": [
+      "d2",
+      "d9"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f574",
+      "eflags": "0x203"
+    }
+  },
+  "950": {
+    "addr": "0xa230a8",
+    "size": 5,
+    "opcodes": [
+      "66",
+      "f7",
+      "c4",
+      "43",
+      "2d"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f574",
+      "eflags": "0x203"
+    }
+  },
+  "951": {
+    "addr": "0xa230ad",
+    "size": 6,
+    "opcodes": [
+      "81",
+      "ee",
+      "04",
+      "00",
+      "00",
+      "00"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05894",
+      "edi": "0x113f574",
+      "eflags": "0x206"
+    }
+  },
+  "952": {
+    "addr": "0xa230b3",
+    "size": 2,
+    "opcodes": [
+      "8b",
+      "0e"
+    ],
+    "mems": [
+      {
+        "addr": "0xa05890",
+        "val": "0x1b2d39eb",
+        "size": 4
+      }
+    ],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xa26000",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x206"
+    }
+  },
+  "953": {
+    "addr": "0xa230b5",
+    "size": 2,
+    "opcodes": [
+      "33",
+      "cb"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x1b2d39eb",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x206"
+    }
+  },
+  "954": {
+    "addr": "0xa230b7",
+    "size": 3,
+    "opcodes": [
+      "80",
+      "fd",
+      "6c"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x1b62888f",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x202"
+    }
+  },
+  "955": {
+    "addr": "0xa230ba",
+    "size": 6,
+    "opcodes": [
+      "8d",
+      "89",
+      "72",
+      "79",
+      "e8",
+      "6c"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x1b62888f",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0xa12"
+    }
+  },
+  "956": {
+    "addr": "0xa230c0",
+    "size": 1,
+    "opcodes": [
+      "f5"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x884b0201",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0xa12"
+    }
+  },
+  "957": {
+    "addr": "0xa230c1",
+    "size": 2,
+    "opcodes": [
+      "f7",
+      "d9"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x884b0201",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0xa13"
+    }
+  },
+  "958": {
+    "addr": "0xa230c3",
+    "size": 5,
+    "opcodes": [
+      "e9",
+      "90",
+      "57",
+      "ff",
+      "ff"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x77b4fdff",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x217"
+    }
+  },
+  "959": {
+    "addr": "0xa18858",
+    "size": 2,
+    "opcodes": [
+      "0f",
+      "c9"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x77b4fdff",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x217"
+    }
+  },
+  "960": {
+    "addr": "0xa1885a",
+    "size": 1,
+    "opcodes": [
+      "49"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xfffdb477",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x217"
+    }
+  },
+  "961": {
+    "addr": "0xa1885b",
+    "size": 5,
+    "opcodes": [
+      "e9",
+      "91",
+      "0f",
+      "fc",
+      "ff"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xfffdb476",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x283"
+    }
+  },
+  "962": {
+    "addr": "0x9d97f1",
+    "size": 2,
+    "opcodes": [
+      "f7",
+      "d1"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0xfffdb476",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x283"
+    }
+  },
+  "963": {
+    "addr": "0x9d97f3",
+    "size": 5,
+    "opcodes": [
+      "e9",
+      "f4",
+      "0f",
+      "02",
+      "00"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b89",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x283"
+    }
+  },
+  "964": {
+    "addr": "0x9fa7ec",
+    "size": 1,
+    "opcodes": [
+      "41"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b89",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x283"
+    }
+  },
+  "965": {
+    "addr": "0x9fa7ed",
+    "size": 5,
+    "opcodes": [
+      "e9",
+      "36",
+      "aa",
+      "03",
+      "00"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b8a",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x203"
+    }
+  },
+  "966": {
+    "addr": "0xa35228",
+    "size": 2,
+    "opcodes": [
+      "33",
+      "d9"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b8a",
+      "edx": "0x113f654",
+      "ebx": "0x4fb164",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x203"
+    }
+  },
+  "967": {
+    "addr": "0xa3522a",
+    "size": 1,
+    "opcodes": [
+      "f5"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b8a",
+      "edx": "0x113f654",
+      "ebx": "0x4dfaee",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x206"
+    }
+  },
+  "968": {
+    "addr": "0xa3522b",
+    "size": 1,
+    "opcodes": [
+      "f8"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b8a",
+      "edx": "0x113f654",
+      "ebx": "0x4dfaee",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x207"
+    }
+  },
+  "969": {
+    "addr": "0xa3522c",
+    "size": 2,
+    "opcodes": [
+      "3b",
+      "e4"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b8a",
+      "edx": "0x113f654",
+      "ebx": "0x4dfaee",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x206"
+    }
+  },
+  "970": {
+    "addr": "0xa3522e",
+    "size": 2,
+    "opcodes": [
+      "03",
+      "e9"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b8a",
+      "edx": "0x113f654",
+      "ebx": "0x4dfaee",
+      "esp": "0x113f49c",
+      "ebp": "0xa23057",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x246"
+    }
+  },
+  "971": {
+    "addr": "0xa35230",
+    "size": 5,
+    "opcodes": [
+      "e9",
+      "42",
+      "1d",
+      "01",
+      "00"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b8a",
+      "edx": "0x113f654",
+      "ebx": "0x4dfaee",
+      "esp": "0x113f49c",
+      "ebp": "0xa47be1",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x216"
+    }
+  },
+  "972": {
+    "addr": "0xa46f77",
+    "size": 5,
+    "opcodes": [
+      "e9",
+      "eb",
+      "15",
+      "fd",
+      "ff"
+    ],
+    "mems": [],
+    "regs": {
+      "eax": "0x10",
+      "ecx": "0x24b8a",
+      "edx": "0x113f654",
+      "ebx": "0x4dfaee",
+      "esp": "0x113f49c",
+      "ebp": "0xa47be1",
+      "esi": "0xa05890",
+      "edi": "0x113f574",
+      "eflags": "0x216"
+    }
+  }
+}

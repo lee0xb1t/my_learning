@@ -1,0 +1,1 @@
+pin -t bbl_trace.dll -o sample1.trace -start 0x11325 -end 0x124BF -- sample1.vmp.exe

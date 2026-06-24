@@ -1,0 +1,1 @@
+make all TARGET=ia32
